@@ -4,10 +4,12 @@ const db = require('./db')
 
 // Routers
 const userRouter = require('./users/router')
+const permutationRouter = require ('./permutations/router')
 
 // Middlewares
 const bodyParser = require('body-parser')
 const bodyParserMiddleWare = bodyParser.json()
+
 // Connecting with frontend
 const cors = require('cors')
 const corsMiddleWare = cors()
@@ -19,6 +21,7 @@ app
     .use(corsMiddleWare)
     .use(bodyParserMiddleWare)
     .use(userRouter)
+    .use(permutationRouter)
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 

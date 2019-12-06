@@ -33,7 +33,6 @@ Response
 - **[Technologies used](#technologies-used)**
 - **[How to install](#how-to-install)**
 - **[Features working](#features-working)**
-- **[To do](#to-do)**
 
 ## Technologies used
 

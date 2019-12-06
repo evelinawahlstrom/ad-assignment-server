@@ -34,7 +34,8 @@ Response
 - **[How to install](#how-to-install)**
 - **[Features working](#features-working)**
 
-## Technologies used
+## Technologies used:
+- Express, Sequelize, bcrypt, cors, pg 
 
 ## How to install
 
@@ -63,9 +64,6 @@ node index
 ```
 
 As a standard I'm using port 4000 for this server.
-
-## Technologies used
-- Express, Sequelize, bcrypt, cors, pg 
 
 ## Features working
 

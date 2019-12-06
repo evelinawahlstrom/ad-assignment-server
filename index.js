@@ -9,7 +9,6 @@ const permutationRouter = require ('./permutations/router')
 // Middlewares
 const bodyParser = require('body-parser')
 const bodyParserMiddleWare = bodyParser.json()
-
 // Connecting with frontend
 const cors = require('cors')
 const corsMiddleWare = cors()
@@ -25,6 +24,7 @@ app
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 
+// force: true as long as development is in process
 db
 .sync({force: true})
 .then(() => console.log("Database schema updated"))

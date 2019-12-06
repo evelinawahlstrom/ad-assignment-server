@@ -22,12 +22,14 @@ router.get("/permutation-index/ADLUDIO", (req, res, next) => {
         }
         return results;
       }
-    let permutation = getPermutations('ODIDULA').filter((el, idx, self) =>
-    (self.indexOf(el) === idx));
+    let permutation = getPermutations('ODIDULA')
+    .filter((el, idx, self) => (self.indexOf(el) === idx));
+    permutation.sort((a,b) => a < b ? -1 : 1);
     console.log("Total permutation: "+permutation.length);
     console.log(permutation);
     console.log(permutation.indexOf('ADLUDIO'))
-    res.json(permutation.indexOf('ADLUDIO'))
+    let indexOfGivenPermutation = permutation.indexOf('ADLUDIO')
+    res.json({indexOfGivenPermutation})
 })
 
 module.exports = router;

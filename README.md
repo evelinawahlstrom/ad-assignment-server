@@ -65,9 +65,12 @@ node index
 
 As a standard I'm using port 4000 for this server.
 
+## Technologies used
+- Express, Sequelize, bcrypt, cors, pg 
+
 ## Features working
 
-- router.post/'register' for registering
+- router.post/'register' for registering, the password will be encrypted with the help of bcrypt
 - router.get/'/permutation-index/ADLUDIO' will create an array of all possible combinations, sort them alphabetically and then find the index of ADLUDIO leading to a json response:
 {
     "indexOfGivenPermutation": 66

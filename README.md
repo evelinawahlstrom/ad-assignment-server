@@ -43,19 +43,21 @@ Response
 
 `git clone https://github.com/evelinawahlstrom/ad-assignment-server `
 
-2. In your terminal, run the following command to install all the dependencies
+2. cd into adludio-server
+
+3. In your terminal, run the following command to install all the dependencies
 
 ```
 npm install
 ```
 
-3. To start the terminal with nodemon, use the following command (assumes nodemon is installed globally)
+4. To start the terminal with nodemon, use the following command (assumes nodemon is installed globally)
 
 ```
 nodemon index
 ```
  
-4. To start the code without tracking saved changes, you can simply run:
+5. To start the code without tracking saved changes, you can simply run:
 
 ```
 node index

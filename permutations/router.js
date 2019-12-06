@@ -1,33 +1,33 @@
 const { Router } = require("express");
+
 const router = new Router();
 
 router.get("/permutation-index/ADLUDIO", (req, res, next) => {
     function getPermutations(string) {
-        var results = [];
-    
+        let results = [];
         if (string.length === 1) 
         {
           results.push(string);
           return results;
         }
-    
-        for (var i = 0; i < string.length; i++) 
+        for (let i = 0; i < string.length; i++) 
         {
-          var firstChar = string[i];
-          var otherChar = string.substring(0, i) + string.substring(i + 1);
-          var otherPermutations = getPermutations(otherChar);
+          let firstChar = string[i];
+          let otherChar = string.substring(0, i) + string.substring(i + 1);
+          let otherPermutations = getPermutations(otherChar);
           
-          for (var j = 0; j < otherPermutations.length; j++) {
+          for (let j = 0; j < otherPermutations.length; j++) {
             results.push(firstChar + otherPermutations[j]);
           }
         }
         return results;
       }
-      
-      var permutation = getPermutations('ODIDULA').filter((el, idx, self) => (self.indexOf(el) === idx));
-      console.log("Total permutation: "+permutation.length);
-      console.log(permutation);
-      res.send(permutation)
+    let permutation = getPermutations('ODIDULA').filter((el, idx, self) =>
+    (self.indexOf(el) === idx));
+    console.log("Total permutation: "+permutation.length);
+    console.log(permutation);
+    console.log(permutation.indexOf('ADLUDIO'))
+    res.json(permutation.indexOf('ADLUDIO'))
 })
 
 module.exports = router;

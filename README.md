@@ -34,3 +34,32 @@ Response
 - **[How to install](#how-to-install)**
 - **[Features working](#features-working)**
 - **[To do](#to-do)**
+
+## Technologies used
+
+## How to install
+
+1. Clone this repo 
+
+`git clone https://github.com/evelinawahlstrom/ad-assignment-server `
+
+2. In your terminal, run the following command to install all the dependencies
+
+```
+npm install
+```
+
+3. To start the terminal with nodemon, use the following command (assumes nodemon is installed globally)
+
+```
+nodemon index
+```
+ 
+4. To start the code without tracking saved changes, you can simply run:
+
+```
+node index
+```
+
+As a standard I'm using port 4000 for this server.
+

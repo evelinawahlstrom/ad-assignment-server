@@ -1,5 +1,3 @@
- # :woman_technologist: ADLUDIO ASSIGNMENT :woman_technologist:
-
  # :woman_technologist: ADLUDIO ASSIGNMENT :woman_technologist: 
 ## What this project is about:
 

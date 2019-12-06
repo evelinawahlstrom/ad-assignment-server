@@ -8,12 +8,17 @@ Two tasks were given to me from Adludio to evalutate my technical skills as a ju
 ## TASK 2:
 - "ODIDULA"
 That's a string of letters.
-If we were to create an array of all the possible permutations of these letters, sort them alphabetically and remove repetitions, which index would ADLUDIO be at? :) <br/>
-Create a single REST JSON endpoint that solves that puzzle GET /permutation-index/{someStringHere} <br/>
-The endpoint will respond with a json object with one key: <br/>
+If we were to create an array of all the possible permutations of these letters, sort them alphabetically and remove repetitions, which index would ADLUDIO be at? :) 
+<br/>
+Create a single REST JSON endpoint that solves that puzzle GET /permutation-index/{someStringHere} 
+<br/>
+The endpoint will respond with a json object with one key: 
+<br/>
 {
-"indexOfGivenPermutation": 34 } <br/>
-And the value 34 above is an example of the position of the given permutation in a sorted array of all permutations (when repetitions are omitted) <br/>
+"indexOfGivenPermutation": 34 } 
+<br/>
+And the value 34 above is an example of the position of the given permutation in a sorted array of all permutations (when repetitions are omitted)
+<br/>
 For example:
 <br/>
 Request

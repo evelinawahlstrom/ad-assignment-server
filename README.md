@@ -2,7 +2,7 @@
 ## What this project is about:
 
 Two tasks were given to me from Adludio to evalutate my technical skills as a junior developer. 
-I was given three days to complete the tasks::
+<br/> I was given three days to complete the tasks::
 - Task 1: Mainly Front End - see related repository **[Adludio client](https://github.com/evelinawahlstrom/ad-assignment-client)**
 - Task 2: Backend - this repository
 

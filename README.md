@@ -69,6 +69,6 @@ As a standard I'm using port 4000 for this server.
 ## Features working
 
 - router.post/'register' for registering, the password will be encrypted with the help of bcrypt
-- router.get/'/permutation-index/ADLUDIO' will create an array of all possible combinations, sort them alphabetically and then find the index of ADLUDIO leading to a json response (**see gif below**)
+- router.get/'/permutation-index/ADLUDIO' will create an array of all possible combinations, sort them alphabetically and then find the index of ADLUDIO leading to a response as a json object (**see gif below**)
 
 ![adludio-server](https://user-images.githubusercontent.com/54844766/70537216-61369980-1b60-11ea-86b1-6ad1c6039e3c.gif)

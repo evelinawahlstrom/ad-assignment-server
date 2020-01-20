@@ -40,6 +40,8 @@ Response
 
 ## How to install
 
+**Note** *You will need to create a container on your computer for the database. I've used* **[Docker](https://www.docker.com/)**
+
 1. Clone this repo 
 
 `git clone https://github.com/evelinawahlstrom/ad-assignment-server `
@@ -65,6 +67,12 @@ node index
 ```
 
 As a standard I'm using port 4000 for this server.
+
+6. Start the database
+
+```
+With the help of docker, connect with the password 'secret'
+```
 
 ## Features working
 
